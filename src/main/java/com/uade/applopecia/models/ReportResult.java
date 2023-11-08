@@ -9,10 +9,10 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Builder
-public abstract class User {
+public class ReportResult {
     private Integer id;
-    private String username;
-    private String password;
-    private String email;
-    private Boolean active;
+    private Patient patient;
+    private String reportBase;
+    private LocalDateTime creationDate;
+
 }
